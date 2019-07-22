@@ -95,6 +95,12 @@
   <ItemGroup>
     <Folder Include="Assets\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ToothCrown\ToothCrown.csproj">
+      <Project>{30c5dcb9-70d6-40df-8fe3-2dfa21b018ea}</Project>
+      <Name>ToothCrown</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.
